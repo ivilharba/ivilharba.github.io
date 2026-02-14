@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfólio | Ivi</title>
+<title>Portfólio | Ingrid Vilharba</title>
 
 <style>
 body {
@@ -17,8 +16,17 @@ body {
 header {
     text-align: center;
     padding: 70px 20px;
-    background: linear-gradient(135deg, #ff007f, #0066ff);
+    background: linear-gradient(135deg, #7a00ff, #0066ff); /* roxo bonito */
     color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
 }
 
 section {
@@ -37,21 +45,59 @@ section {
 
 .card h2 {
     margin-top: 0;
-    color: #0066ff;
+    color: #7a00ff; /* roxo */
 }
 
 .voltar {
     display: inline-block;
-    margin-top: 40px;
+    margin: 60px auto 40px auto;
     padding: 12px 25px;
     background: #111;
     color: white;
     text-decoration: none;
     border-radius: 25px;
+    font-weight: bold;
 }
 
 .voltar:hover {
     background: #333;
+}
+
+/* Galeria */
+.galeria {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.galeria h2 {
+    color: #7a00ff;
+    margin-bottom: 30px;
+}
+
+.galeria .imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #111;
+    color: white;
 }
 </style>
 
@@ -65,79 +111,59 @@ section {
 
 <section>
 
+    <!-- Minha História -->
+    <div class="card">
+        <h2>Minha História</h2>
+        <p>Minha primeira atuação estratégica em marketing foi há 17 anos, de forma prática e empreendedora.</p>
+        <p>Participei da criação e desenvolvimento completo de uma marca no segmento alimentício, desde a concepção do produto até o posicionamento no mercado.</p>
+        <p>Identifiquei oportunidades, realizei pesquisa de mercado, propus inovação de produto, desenvolvi identidade visual, comunicação estratégica, campanhas, copywriting e gestão de redes sociais. O negócio tornou-se referência local e operou por 12 anos.</p>
+        <p>Ao longo dos anos seguintes, continuei aplicando estratégias de marketing em diferentes projetos, incluindo Hot Dog do Maia, Maia Sisters e posicionamento artístico.</p>
+        <p>Mesmo sem formação acadêmica, acumulei 17 anos de experiência prática em branding, comunicação estratégica, marketing digital e desenvolvimento de marcas.</p>
+        <p>Hoje, uno criatividade, visão estratégica e execução técnica para transformar ideias em posicionamento e crescimento.</p>
+    </div>
+
+    <!-- Projetos -->
     <div class="card">
         <h2>Showritos</h2>
-        <p>
-        Criação completa de marca e posicionamento estratégico no segmento alimentício.
-        Identifiquei, através de pesquisa de mercado, uma oportunidade inédita na cidade: churros gourmet banhados no chocolate, inspirados em tendências internacionais.
-        </p>
-        <p>
-        Desenvolvi a estratégia de produto, variações de sabores (chocolate ao leite, branco, com coco, castanha, confeitos coloridos), naming das versões e comunicação voltada para diferentes públicos, incluindo crianças e famílias.
-        </p>
-        <p>
-        Estruturei toda a identidade da marca, copywriting, campanhas sazonais, produção de conteúdo, storytelling e posicionamento digital.
-        O negócio operou por 12 anos, consolidando-se como pioneiro no segmento local.
-        </p>
+        <p>Criação completa de marca e posicionamento estratégico no segmento alimentício. Identifiquei oportunidade inédita: churros gourmet banhados no chocolate.</p>
+        <p>Desenvolvi a estratégia de produto, variações de sabores, naming das versões e comunicação voltada para diferentes públicos.</p>
+        <p>Estruturei toda a identidade da marca, copywriting, campanhas sazonais, produção de conteúdo, storytelling e posicionamento digital.</p>
     </div>
 
     <div class="card">
         <h2>Hot Dog do Maia</h2>
-        <p>
-        Criação da marca do zero para delivery de lanches, incluindo identidade visual estratégica com cores associadas a apetite e consumo.
-        </p>
-        <p>
-        Desenvolvi toda a comunicação digital com linguagem jovem e direta, alinhada ao público-alvo.
-        Criei campanhas promocionais, conteúdo diário para redes sociais, stories estratégicos e ações sazonais para aumento de vendas.
-        </p>
-        <p>
-        Atuação completa em branding, posicionamento e presença digital.
-        </p>
+        <p>Criação da marca do zero para delivery de lanches, incluindo identidade visual estratégica com cores associadas a apetite.</p>
+        <p>Desenvolvi comunicação digital com linguagem jovem, campanhas promocionais, conteúdo diário, stories e ações sazonais.</p>
     </div>
 
     <div class="card">
         <h2>Maia Sisters – Semi-joias</h2>
-        <p>
-        Estruturação completa da marca e identidade visual.
-        Desenvolvimento de e-commerce pela plataforma Trey, incluindo cadastro estratégico de produtos, criação de banners e organização de categorias.
-        </p>
-        <p>
-        Integração com Instagram Shopping, gestão de vitrine digital e construção de presença visual coerente com o público feminino da marca.
-        </p>
-        <p>
-        Atuação em branding, e-commerce e performance digital.
-        </p>
+        <p>Estruturação completa da marca e identidade visual. Desenvolvimento de e-commerce pela Trey, cadastro estratégico de produtos, banners e organização de categorias.</p>
+        <p>Integração com Instagram Shopping, gestão de vitrine digital e construção de presença visual coerente com o público feminino da marca.</p>
+    </div>
+
+    <!-- Galeria de Imagens -->
+    <div class="galeria">
+        <h2>Galeria de Projetos</h2>
+        <div class="imagens">
+            <img src="Screenshot_20260214-124545~2.png" alt="Showritos">
+            <img src="Screenshot_20260214-124700~2.png" alt="Showritos">
+            <img src="Screenshot_20260214-124804~2.png" alt="Hot Dog do Maia">
+            <img src="Screenshot_20260214-125308~3.png" alt="Hot Dog do Maia">
+            <img src="Screenshot_20260214-125404~2.png" alt="Maia Sisters">
+            <img src="Screenshot_20260214-125739~2.png" alt="Maia Sisters">
+        </div>
+    </div>
+
+    <!-- Botão Voltar -->
+    <div style="text-align:center;">
+        <a href="index.html" class="voltar">← Voltar para página inicial</a>
     </div>
 
 </section>
 
-</body>
-</html>
-<div class="card">
-    <h2>Minha História</h2>
-    <p>
-    Minha primeira atuação estratégica em marketing foi há 17 anos, de forma prática e empreendedora.
-    Participei da criação e desenvolvimento completo de uma marca no segmento alimentício, desde a concepção do produto até o posicionamento no mercado.
-    </p>
-    <p>
-    Identifiquei oportunidades, realizei pesquisa de mercado, propus inovação de produto, desenvolvi identidade visual, comunicação estratégica, campanhas, copywriting e gestão de redes sociais.
-    O negócio tornou-se referência local e operou por 12 anos.
-    </p>
-    <p>
-    Ao longo dos anos seguintes, continuei aplicando estratégias de marketing em diferentes projetos, incluindo marcas locais, comércio digital e posicionamento artístico.
-    Desenvolvi identidade visual, criação de conteúdo, materiais promocionais, campanhas e presença digital para pequenos empreendedores e artistas.
-    </p>
-    <p>
-    Mesmo sem formação acadêmica na área, acumulei 17 anos de experiência prática em branding, comunicação estratégica, marketing digital e desenvolvimento de marcas.
-    </p>
-    <p>
-    Hoje, uno criatividade, visão estratégica e execução técnica para transformar ideias em posicionamento e posicionamento em crescimento.
-    </p>
-</div>
-<a href="index.html" class="voltar">← Voltar para página inicial</a>
-
-</section>
-
-Página criada por Ingrid Vilharba | © 2026
+<footer>
+    Página criada por Ingrid Vilharba | © 2026
 </footer>
 
 </body>
