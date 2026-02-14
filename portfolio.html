@@ -1,113 +1,142 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfólio - Ingrid Vilharba</title>
+<title>Portfólio | Ivi</title>
 
 <style>
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f2f2f2;
     color: #111;
 }
 
 header {
     text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #ff007f, #0066ff);
+    color: white;
+}
+
+section {
     padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
 }
 
-header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 18px;
-    color: #555;
-}
-
-.titulo-portfolio {
-    background-color: #7a00ff; /* roxo */
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 28px;
-    margin: 30px 0 10px 0;
-}
-
-.subtitulo-portfolio {
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 40px;
-    color: #333;
-}
-
-section.historia {
-    padding: 0 20px 50px 20px;
-    max-width: 900px;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-section.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 0 20px 50px 20px;
-}
-
-section.galeria img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-footer {
-    text-align: center;
+.card {
+    background: white;
     padding: 30px;
-    background-color: #111;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #0066ff;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 25px;
+    background: #111;
     color: white;
-    font-size: 14px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.voltar:hover {
+    background: #333;
 }
 </style>
+
 </head>
 <body>
 
 <header>
-    <h1>Ingrid Vilharba</h1>
-    <p>Marketing Estratégico & Growth | Branding & Criação</p>
+    <h1>Portfólio</h1>
+    <p>Estratégia, criação e construção de marcas do zero.</p>
 </header>
 
-<div class="titulo-portfolio">Portfólio</div>
-<div class="subtitulo-portfolio">Galeria de projetos</div>
+<section>
 
-<section class="historia">
-<p>Desde os 19 anos, venho aplicando estratégias de marketing em projetos próprios e de terceiros, desenvolvendo identidade visual, storytelling, criação de conteúdo, materiais promocionais e campanhas. Entre meus principais trabalhos estão:</p>
-<ul>
-<li><strong>Showritos:</strong> comunicação completa, copywriting, campanhas sazonais e gestão de Instagram.</li>
-<li><strong>Hot Dog do Maia:</strong> identidade visual, posts, stories e campanhas promocionais para delivery.</li>
-<li><strong>Maia Sister:</strong> site criado do zero, integração com Instagram Shopping, banners e identidade visual.</li>
-</ul>
-<p>Também desenvolvi conteúdos para artistas locais, incluindo criação de cartazes e stories para divulgação de eventos. Todo o meu trabalho é feito com foco em engajamento e resultados reais.</p>
+    <div class="card">
+        <h2>Showritos</h2>
+        <p>
+        Criação completa de marca e posicionamento estratégico no segmento alimentício.
+        Identifiquei, através de pesquisa de mercado, uma oportunidade inédita na cidade: churros gourmet banhados no chocolate, inspirados em tendências internacionais.
+        </p>
+        <p>
+        Desenvolvi a estratégia de produto, variações de sabores (chocolate ao leite, branco, com coco, castanha, confeitos coloridos), naming das versões e comunicação voltada para diferentes públicos, incluindo crianças e famílias.
+        </p>
+        <p>
+        Estruturei toda a identidade da marca, copywriting, campanhas sazonais, produção de conteúdo, storytelling e posicionamento digital.
+        O negócio operou por 12 anos, consolidando-se como pioneiro no segmento local.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Hot Dog do Maia</h2>
+        <p>
+        Criação da marca do zero para delivery de lanches, incluindo identidade visual estratégica com cores associadas a apetite e consumo.
+        </p>
+        <p>
+        Desenvolvi toda a comunicação digital com linguagem jovem e direta, alinhada ao público-alvo.
+        Criei campanhas promocionais, conteúdo diário para redes sociais, stories estratégicos e ações sazonais para aumento de vendas.
+        </p>
+        <p>
+        Atuação completa em branding, posicionamento e presença digital.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Maia Sisters – Semi-joias</h2>
+        <p>
+        Estruturação completa da marca e identidade visual.
+        Desenvolvimento de e-commerce pela plataforma Trey, incluindo cadastro estratégico de produtos, criação de banners e organização de categorias.
+        </p>
+        <p>
+        Integração com Instagram Shopping, gestão de vitrine digital e construção de presença visual coerente com o público feminino da marca.
+        </p>
+        <p>
+        Atuação em branding, e-commerce e performance digital.
+        </p>
+    </div>
+
+    <a href="index.html" class="voltar">← Voltar para página inicial</a>
+
 </section>
 
-<section class="galeria">
-    <img src="Screenshot.png" alt="Showritos">
-    <img src="Screenshot11.png" alt="Showritos">
-    <img src="Screenshot112.png" alt="Hot Dog do Maia">
-    <img src="Captura de tela 12.png" alt="Hot Dog do Maia">
-    <img src="Captura de tela 2.png" alt="Maia Sister">
-    <img src="Screenshot3.png" alt="Maia Sister">
-</section>
+</body>
+</html>
+<div class="card">
+    <h2>Minha História</h2>
+    <p>
+    Minha primeira atuação estratégica em marketing foi há 17 anos, de forma prática e empreendedora.
+    Participei da criação e desenvolvimento completo de uma marca no segmento alimentício, desde a concepção do produto até o posicionamento no mercado.
+    </p>
+    <p>
+    Identifiquei oportunidades, realizei pesquisa de mercado, propus inovação de produto, desenvolvi identidade visual, comunicação estratégica, campanhas, copywriting e gestão de redes sociais.
+    O negócio tornou-se referência local e operou por 12 anos.
+    </p>
+    <p>
+    Ao longo dos anos seguintes, continuei aplicando estratégias de marketing em diferentes projetos, incluindo marcas locais, comércio digital e posicionamento artístico.
+    Desenvolvi identidade visual, criação de conteúdo, materiais promocionais, campanhas e presença digital para pequenos empreendedores e artistas.
+    </p>
+    <p>
+    Mesmo sem formação acadêmica na área, acumulei 17 anos de experiência prática em branding, comunicação estratégica, marketing digital e desenvolvimento de marcas.
+    </p>
+    <p>
+    Hoje, uno criatividade, visão estratégica e execução técnica para transformar ideias em posicionamento e posicionamento em crescimento.
+    </p>
+</div>
 
-<footer>
-    Página criada por Ingrid Vilharba | © 2026
+Página criada por Ingrid Vilharba | © 2026
 </footer>
 
 </body>
