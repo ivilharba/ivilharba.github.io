@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@
       font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #ff0066, #ffcc00, #33ccff); /* fundo vibrante temporário */
+      background-color: #fdfdfd; /* mantém fundo claro do seu layout original */
       color: #111;
       line-height: 1.6;
     }
@@ -17,8 +17,9 @@
     header {
       text-align: center;
       padding: 50px 20px 30px 20px;
-      background: rgba(0,0,0,0.3); /* semi-transparente sobre o gradiente */
-      color: #fff;
+      /* use seu fundo original ou deixe branco */
+      background-color: #fdfdfd;
+      color: #111; /* texto escuro, como estava antes */
     }
 
     header h1 {
@@ -31,15 +32,16 @@
       margin-top: 0;
     }
 
+    /* Menu original */
     nav {
       display: flex;
       justify-content: center;
-      background-color: rgba(0,0,0,0.6);
+      background-color: #eee; /* cor do menu que você usava */
       padding: 10px 0;
     }
 
     nav a {
-      color: #fff;
+      color: #111; /* cor do texto do menu original */
       text-decoration: none;
       margin: 0 20px;
       font-weight: bold;
@@ -47,7 +49,7 @@
     }
 
     nav a:hover {
-      color: #ffcc00;
+      color: #ff0066; /* destaque ao passar o mouse */
     }
 
     .icons {
@@ -61,6 +63,7 @@
       vertical-align: middle;
     }
 
+    /* Botão centralizado do portfólio */
     .btn-portfolio {
       display: flex;
       justify-content: center;
@@ -68,7 +71,7 @@
     }
 
     .btn-portfolio a {
-      background-color: #000; /* botão preto */
+      background-color: #ff0066; /* cor vibrante estilo Times Square */
       color: #fff;
       padding: 14px 28px;
       text-decoration: none;
@@ -78,9 +81,9 @@
     }
 
     .btn-portfolio a:hover {
-      background-color: #333;
+      background-color: #ff3399;
       transform: translateY(-3px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+      box-shadow: 0 5px 15px rgba(255,51,153,0.4);
     }
 
     footer {
@@ -90,7 +93,6 @@
       font-size: 14px;
       color: #666;
       border-top: 1px solid #ccc;
-      background-color: rgba(255,255,255,0.7);
     }
 
     @media (max-width: 600px) {
@@ -107,6 +109,9 @@
       nav a {
         margin: 0 10px;
       }
+      .icons img {
+        width: 40px;
+      }
     }
   </style>
 </head>
@@ -117,12 +122,14 @@
     <p>Marketing Estratégico & Growth | Criação, Identidade e Conteúdo</p>
   </header>
 
+  <!-- Menu original -->
   <nav>
     <a href="#sobre">Sobre</a>
     <a href="#servicos">Serviços</a>
     <a href="#contato">Contato</a>
   </nav>
 
+  <!-- Seus ícones originais -->
   <div class="icons">
     <a href="https://www.instagram.com/seuusuario" target="_blank">
       <img src="instagram.png" alt="Instagram">
@@ -135,6 +142,7 @@
     </a>
   </div>
 
+  <!-- Botão centralizado -->
   <div class="btn-portfolio">
     <a href="portfolio.html">Ver Portfólio</a>
   </div>
@@ -145,4 +153,3 @@
 
 </body>
 </html>
-  
